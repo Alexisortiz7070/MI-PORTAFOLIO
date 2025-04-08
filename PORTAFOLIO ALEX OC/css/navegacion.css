@@ -1,0 +1,42 @@
+/* Estilos para el menú de navegación */
+
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 10px 20px;
+    z-index: 1000;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar li {
+    margin: 0 15px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+
+.navbar a:hover {
+    color: #4CAF50;
+    transition: color 0.3s ease;
+}
+
+
+/* Espacio para evitar que el contenido se esconda debajo del menú fijo */
+
+body {
+    padding-top: 60px;
+}

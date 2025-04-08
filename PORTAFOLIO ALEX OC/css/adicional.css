@@ -1,0 +1,109 @@
+/* Página de proyectos */
+
+.proyectos-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.proyecto-card {
+    width: 300px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transform: scale(0);
+    animation: fadeIn 0.6s forwards;
+}
+
+.proyecto-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.proyecto-info {
+    padding: 20px;
+}
+
+.proyecto-info h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.proyecto-info p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.proyecto-info .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.proyecto-info .btn:hover {
+    background-color: #45a049;
+}
+
+
+/* Página de contacto */
+
+.contacto-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.contacto-form input,
+.contacto-form textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: 2px solid #ddd;
+    font-size: 1rem;
+}
+
+.contacto-form button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.contacto-form button:hover {
+    background-color: #45a049;
+}
+
+
+/* Página sobre mí */
+
+.sobre-mi-contenido {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.sobre-mi-contenido h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.sobre-mi-contenido ul {
+    list-style: none;
+    padding: 0;
+    text-align: left;
+}
+
+.sobre-mi-contenido ul li {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}

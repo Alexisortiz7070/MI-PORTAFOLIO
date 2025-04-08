@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bienvenido - Mi Portafolio</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+
+<body>
+    <div class="bienvenida-container">
+        <h1 class="animated fadeIn">¡Bienvenido, <span id="nombreUsuario"></span>!</h1>
+        <p>¡Gracias por ingresar a mi portafolio! Explora mis proyectos, mis habilidades y contáctame si deseas colaborar.</p>
+    </div>
+
+    <script>
+        document.getElementById('nombreUsuario').textContent = localStorage.getItem("nombreUsuario");
+    </script>
+</body>
+
+</html>
